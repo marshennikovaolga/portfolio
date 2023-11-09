@@ -1,0 +1,200 @@
+.header {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: start;
+    position: relative;
+    align-items: left;
+}
+
+.header__info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.header__content {
+    margin-left: 20px;
+}
+
+.header__lang-button {
+    border: none;
+    font-family: Chillax;
+    font-size: 20px;
+    font-weight: 500;
+    color: #43407e;
+    background-color: #fff;
+    align-self: center;
+    margin-top: 2em;
+}
+
+.header__me {
+    font-family: New-York;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.header__city {
+    font-family: New-York;
+    font-size: 20px;
+    margin: 0;
+}
+
+.header__lang {
+    align-items: end;
+    padding: 0 0 10px 600px;
+}
+
+.header__contacts a {
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.header__link {
+    font-family: Lato;
+    text-decoration: none;
+    color: inherit;
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: url('../../images/rosepointer.png');
+    position: relative;
+}
+
+.icon-lang {
+    background: url('../../images/translate.png') no-repeat;
+    background-size: contain;
+    padding-left: 30px;
+}
+
+.icon-github {
+    background: url('../../images/github.png') no-repeat;
+    background-size: contain;
+    padding-left: 30px;
+}
+
+.icon-telegram {
+    background: url('../../images/telegram.png') no-repeat;
+    background-size: contain;
+    padding-left: 30px;
+}
+
+.icon-gmail {
+    background: url('../../images/gmail.png') no-repeat;
+    background-size: contain;
+    padding-left: 30px;
+}
+
+.header__link::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1.5px;
+    background-color: #746f6f;
+    bottom: -5px;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: width 0.4s ease;
+}
+
+.header__link:hover::before {
+    width: 100%; 
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.header__link:hover {
+    display: inline-block;
+    color: #746f6f;
+}
+
+.header__photo {
+    width: 15vh;
+    height: 15vh;
+    margin-right: 20px;
+    justify-content: none;
+}
+
+.header__title {
+    margin: 30px auto 20px;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: New-York;
+}
+
+.header__about {
+    font-size: 25px;
+    font-family: Lato;
+}
+
+.header__title:hover {
+    color: #3f3d3d;
+}
+
+.header__subtitle {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 200;
+    width: 70%;
+    line-height: 25px;
+    font-family: New-York;
+}
+
+@media screen and (max-width: 450px) {
+    .header {
+        max-width: 450px;
+        margin: 25px auto 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .header__lang-button {
+        margin-left: 5em;
+        margin-top: 0;
+        align-self: end;
+    }
+
+    .header__info {
+        margin-left: 15px;
+    }
+
+    .header__photo {
+        margin-right: 10px;
+    }
+
+    .header__me {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+
+    .header__city {
+        font-size: 15px;
+        margin-left: 20px;
+    }
+
+    .header__title {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+
+    .header__about {
+        font-size: 25px;
+        margin-left: 20px;
+    }
+
+    .header__subtitle {
+        margin-left: 20px;
+        text-align: start;
+        font-size: 20px;
+        width: 100%;
+    }
+}

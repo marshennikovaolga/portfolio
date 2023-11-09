@@ -1,0 +1,126 @@
+.form {
+    width: 55%;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  
+  .form__list {
+    opacity: 0;
+    display: none;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    font-family: Chillax;
+  }
+
+  .form__list.visible {
+    opacity: 1;
+    display: block;
+    visibility: visible;
+    max-height: 300px;
+    transition: max-height 0.3s, opacity 0.3s;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    line-height: 5px;
+    justify-content: space-between;
+  }
+  
+  .form__button {
+    background: none;
+    border: none;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    opacity: 1;
+    transition: opacity 0.3s, transform 0.2s ease;
+  }
+  
+  .form__button:hover {
+    opacity: 0.3;
+    transform: translateY(-2px);
+  }
+
+  .form__button:active {
+    transform: translateY(2px);
+  }
+
+  .form__button img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .form__title {
+    font-weight: 500;
+    font-size: 23px;
+    margin-top: 0;
+    margin-right: 10px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(86, 85, 85, 0.7);
+    transition: border-bottom 0.7s ease;
+  }
+  
+  .form__title.active {
+    border-bottom: none;
+    animation: fadeOut 0.7s ease;
+  }
+
+  @keyframes fadeOut {
+    0% {
+      border-bottom: 2px solid rgba(86, 85, 85, 0.7);
+    }
+    100% {
+      border-bottom: 0;
+    }
+  }
+
+  .form__tool {
+    color: #fff;
+    display: inline-block;
+    margin: 0;
+    padding: 10px 15px;
+    font-size: 20px;
+    border: 1.5px solid rgb(46, 46, 46);
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    transition: transform 0.3s;
+    background: linear-gradient(to right, #2d2c2c, #646364);
+  }
+  
+  .form__tool::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: transform 0.3s, filter 0.3s;
+    filter: blur(0);
+  }
+  
+  .form__tool:hover {
+    transform: translateY(-4px);
+  }
+  
+  .form__tool:hover::before {
+    border: 1.5px solid black;
+    filter: blur(7px);
+  }
+
+  /* mobile */
+
+  @media screen and (max-width: 600px) {
+    .form {
+        width: 100%;
+        margin-left: 10px;
+    }
+}

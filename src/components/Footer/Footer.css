@@ -1,0 +1,17 @@
+.footer {
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.footer__year {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        margin-left: 20px;
+    }
+}

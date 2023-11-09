@@ -1,0 +1,70 @@
+.example {
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-family: Lato;
+}
+
+.example__title {
+    font-weight: 500;
+    width: 400px;
+    font-size: 27px;
+    line-height: 35px;
+    font-family: New-York;
+}
+
+.example__description {
+    width: 70%;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+
+.example__git-link {
+    font-size: 20px;
+    text-decoration: none;
+    color: #746f6f;
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: url('../../images/rosepointer.png');
+    position: relative;
+}
+
+.example__git-link::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1.5px;
+    background-color: #746f6f;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: width 0.4s ease;
+}
+
+.example__git-link:hover::before {
+    width: 100%; 
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.example__git-link:hover {
+    display: inline-block;
+    color: #746f6f;
+    font-size: 21px;
+}
+
+@media screen and (max-width: 600px) {
+    .example {
+        margin-left: 20px;
+    }
+
+    .example__description {
+        width: 100%;
+        margin: 0 auto;
+    }
+}

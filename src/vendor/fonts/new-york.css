@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'New-York';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("NewYorkMedium-Regular.ttf") format("ttf"),
+  }
