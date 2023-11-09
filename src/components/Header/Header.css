@@ -163,6 +163,10 @@
         align-self: end;
     }
 
+    .header__content {
+        margin: 0;
+    }
+
     .header__info {
         margin-left: 15px;
     }
@@ -192,9 +196,9 @@
     }
 
     .header__subtitle {
-        margin-left: 20px;
         text-align: start;
         font-size: 20px;
+        margin-left: 20px;
         width: 100%;
     }
 }
