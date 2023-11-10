@@ -5,9 +5,15 @@ import arrowDown from '../../images/arrowdown.png';
 import { useLanguage } from '../../contexts/LanguageContext.js';
 import { Languages } from '../Languages.js';
 
-export default function LangStack() {
+export default function Courses() {
   const { currentLanguage } = useLanguage();
-  const langData = Languages[currentLanguage].langStack;
+  const coursesTitle = Languages[currentLanguage].courses.title;
+  const coursesTools = [
+    "Yandex Praktikum",
+    "HTML Academy",
+    "Stepik",
+  ];
 
-  return <Form formName="langstack" title={langData.title} tools={langData.tools} arrowRight={arrowRight} arrowDown={arrowDown} />;
+
+  return <Form formName="courses" title={coursesTitle} tools={coursesTools} arrowRight={arrowRight} arrowDown={arrowDown} />;
 }

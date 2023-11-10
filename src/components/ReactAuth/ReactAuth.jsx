@@ -19,13 +19,17 @@ const ReactAuth = () => {
     </div>
   );
   const subtitle = Languages[currentLanguage].reactAuth.subtitle;
+
+  const list = Languages[currentLanguage].reactAuth.list;
+
   const href = "https://github.com/marshennikovaolga/react-mesto-auth";
 
   const images = [gif, registration, auth, validation, cards, profile];
 
+
   return (
     <>
-      <ExampleForm title={title} description={subtitle} href={href} />
+      <ExampleForm title={title} description={subtitle} list={list} href={href} />
       <Gallery images={images} />
     </>
   );

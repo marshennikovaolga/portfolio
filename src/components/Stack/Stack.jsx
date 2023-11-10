@@ -25,6 +25,6 @@ export default function Stack() {
   ];
 
   return (
-    <Form title={stackTitle} tools={stackTools} arrowRight={arrowRight} arrowDown={arrowDown} />
+    <Form formName="stack" title={stackTitle} tools={stackTools} arrowRight={arrowRight} arrowDown={arrowDown} />
   );
 }
