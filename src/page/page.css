@@ -15,3 +15,9 @@
 body {
     user-select: none !important;
   }
+
+  @media  screen and (max-width: 767px) {
+    .page {
+        padding: 10px;
+    }
+}

@@ -8,7 +8,6 @@ import Diploma from "./Diploma/Diploma.jsx";
 import Footer from "./Footer/Footer.jsx";
 import React from 'react';
 import { LanguageProvider } from "../contexts/LanguageContext.js";
-import { FormProvider } from "../contexts/FormContext.js";
 
 export default function App() {
   return (
@@ -16,11 +15,9 @@ export default function App() {
      <LanguageProvider>
     <>
       <Header />
-      <FormProvider>
       <Stack />
       <LangStack />
       <Courses />
-      </ FormProvider>
       <ReactAuth />
       <BackMesto />
       <Diploma />

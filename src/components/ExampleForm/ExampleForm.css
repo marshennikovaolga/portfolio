@@ -15,6 +15,12 @@
     font-family: New-York;
 }
 
+.link-icon {
+    background: url('../../images/sitelink.png') no-repeat;
+    background-size: 15px;
+    padding-left: 20px;
+}
+
 .example__container {
     display: flex;
     flex-direction: column;
@@ -32,7 +38,7 @@
 }
 
 .example__description {
-    width: 70%;
+    width: 60%;
     font-size: 20px;
     line-height: 25px;
     margin-bottom: 5px;
@@ -86,8 +92,14 @@
     }
 
     .example__description {
-        width: 100%;
-        margin: 0 auto;
+        width: 95%;
+        margin: 0;
         margin-top: 15px;
+        font-size: 22px;
+    }
+
+    .example__title {
+        width: 95%;
+        padding-bottom: 10px;
     }
 }

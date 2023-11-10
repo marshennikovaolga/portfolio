@@ -9,7 +9,7 @@ export const Languages = {
       title: 'Frontend React Junior',
       about: 'About me',
       subtitle:
-        '\u00A0Lorem ipsum dolor sit amet. Aut ullam explicabo sit fugit modi et asperiores consequatur At beatae velit est autem voluptatem qui dolor sint est nobis iste. Quo dolor quam est quia deserunt sed aliquid dicta aut praesentium voluptatem non eveniet voluptates qui optio voluptatum rem temporibus neque? Sit accusamus quod aut expedita aliquam et magnam omnis et dolor dolor. In officiis assumenda ut ratione perferendis non porro voluptas a magnam voluptatibus nam eveniet voluptas?',
+        '\u00A0I\'m delighted to introduce you to my portfolio website! In January 2023, I successfully completed the Web Developer course at Yandex Practicum, covering both frontend and basic backend development. Currently, I have a few finished projects, and my portfolio will be gradually expanding. In my work, I utilize React.js to create dynamic interfaces, adapting them for various formats—whether it\'s smartphones, laptops, or desktop computers. I have experience interacting with servers through REST API, ensuring efficient data retrieval and transmission.\n\nMy approach to web development is rooted in continuous learning, and I am eager to explore the development of messengers and large-scale marketplaces in the future.',
     },
     stack: {
       title: 'My stack:',
@@ -25,7 +25,7 @@ export const Languages = {
     reactAuth: {
       title: 'Educational project Mesto with user authentication and registration',
       subtitle:
-        '\u00A0The project has been developed following Object-Oriented Programming (OOP) and REST API principles. Routing, utilizing user context, prevents unauthorized users from accessing information on the page (in this case, a gallery of photos with descriptions), requiring them to register before redirecting to the login page. Additionally, the project includes validation and responsive design. Other users have the option to like or unlike posts. Authorized users can create and delete cards, update profile descriptions, and change their avatars.',
+        '\u00A0The project is built on the principles of OOP and REST API, incorporating validation and responsive design. The website operates as a gallery of photos with brief descriptions. Users can like and unlike posts, create cards, and edit information in their profile, including avatar, name, and description. The project includes routing, meaning that an unregistered user doesn\'t have access to the gallery. Therefore, they are prompted to register and authenticate first.',
       list: 'React, REST API, OOP, BEM Nested',
     },
     backmesto: {
@@ -48,7 +48,7 @@ export const Languages = {
       title: 'Frontend React Junior',
       about: 'Обо мне',
       subtitle:
-      '\u00A0Lorem ipsum dolor sit amet. Aut ullam explicabo sit fugit modi et asperiores consequatur At beatae velit est autem voluptatem qui dolor sint est nobis iste. Quo dolor quam est quia deserunt sed aliquid dicta aut praesentium voluptatem non eveniet voluptates qui optio voluptatum rem temporibus neque? Sit accusamus quod aut expedita aliquam et magnam omnis et dolor dolor. In officiis assumenda ut ratione perferendis non porro voluptas a magnam voluptatibus nam eveniet voluptas?',
+      '\u00A0Рада представить вам свой сайт-портфолио! В январе 2023 я успешно завершила курс Веб-разработчик от Яндекс Практикум (frontend и основы backend). Пока что у меня немного законченных проектов, и портфолио будет постепенно пополняться. В своей работе использую React.js для построения динамичных интерфейсов, адаптирую их под различные форматы – для смартфонов, ноутбуков и компьютеров.  Имею опыт взаимодействия с серверами (REST API), обеспечивая эффективное получение и отправку данных. Мой подход к веб-разработке базируется на постоянном обучении, в будущем заинтересована разрабатывать мессенджеры и крупные маркетплейсы.',
   },
     stack: {
       title: 'Стэк:',
@@ -64,7 +64,7 @@ export const Languages = {
     reactAuth: {
       title: 'Учебный проект Mesto с аутентификацией и регистрацией',
       subtitle:
-        '\u00A0Проект создан по принципам ООП и REST API. Маршрутизация с использованием контекста пользователя предотвращает получение доступа у незарегистрированного пользователя к просмотру информации на странице (в данном случае это галерея фотографий с описанием) и требует пройти регистрацию, а затем перенаправляет пользователя на вход. Также в работе применена валидация и адаптивная вёрстка. У других пользователей есть возможность ставить и убирать лайки на публикацию. Авторизованный пользователь может создавать карточки и удалять их, менять имя, описание и аватар профиля.',
+        '\u00A0Проект основан на принципах ООП и REST API, с использованием валидации и адаптивной вёрстки. Сайт функционирует в формате галереи фотографий с краткими описаниями. Пользователи могут ставить и убирать лайки к постам, создавать карточки и редактировать информацию в своем профиле, включая аватар, имя и описание. В проекте применена маршрутизация – незарегистрированный пользователь не имеет доступа к галерее, поэтому сначала ему предлагают пройти регистрацию и авторизацию.',
       list: 'React, REST API, OOP, BEM Nested',
     },
     backmesto: {
