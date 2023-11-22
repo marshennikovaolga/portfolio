@@ -30,7 +30,7 @@ const Header = () => {
                     </p>
                     <p className={`header__link icon-telegram`}>{Languages[currentLanguage].header.telegram}</p>
                     <p className={`header__link icon-gmail`}>
-                        <a href="mailto:marshennikova@gmail.com">{Languages[currentLanguage].header.gmail}</a>
+                        <a href="mailto:olyamrshn@gmail.com">{Languages[currentLanguage].header.gmail}</a>
                     </p>
                 </div>
             </div>

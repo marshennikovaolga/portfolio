@@ -8,20 +8,16 @@ import { Languages } from '../Languages.js';
 export default function Stack() {
   const { currentLanguage } = useLanguage();
   const stackTitle = Languages[currentLanguage].stack.title;
-
   const stackTools = [
     "Git",
     "JavaScript",
-    "OOP",
     "React",
     "TypeScript",
-    "Webpack",
+    "OOP",
     "REST API",
     "Node.js",
-    "Express",
-    "Adaptive Layout",
+    "Express.js",
     "HTML5, CSS3",
-    "BEM Nested",
   ];
 
   return (

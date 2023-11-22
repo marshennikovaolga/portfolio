@@ -7,7 +7,6 @@
     flex-direction: column;
     align-items: start;
     position: relative;
-    align-items: left;
 }
 
 .header__info {
@@ -43,11 +42,6 @@
     font-family: New-York;
     font-size: 20px;
     margin: 0;
-}
-
-.header__lang {
-    align-items: end;
-    padding: 0 0 10px 600px;
 }
 
 .header__contacts a {
@@ -112,7 +106,6 @@
 }
 
 .header__link:hover {
-    display: inline-block;
     color: #746f6f;
 }
 

@@ -51,8 +51,8 @@
     color: #746f6f;
     margin-top: 0;
     font-weight: 400;
-    cursor: url('../../images/rosepointer.png');
     position: relative;
+    margin-bottom: 2px;
 }
 
 .icon-github {
