@@ -65,11 +65,22 @@
         align-items: center;
         text-align: center;
         flex-direction: column;
-        padding-left: 10px;
+        padding-left: 25px;
     }
 
     .gallery__image {
-        width: 80%;
+        width: 95%;
         height: auto;
     }
+
+    .gallery-caption {
+        padding-top: 10px;
+        font-size: 14px;
+        color: grey;
+    }
+
+  .gallery-button_back,
+  .gallery-button_go {
+    display: none;
+  }
 }

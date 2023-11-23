@@ -4,12 +4,15 @@ import './Gallery.css';
 export default function Gallery({ images }) {
   const [currentImage, setCurrentImage] = useState(0);
   const touchStartX = useRef(null);
+  const [showCaption, setShowCaption] = useState(true);
 
   const nextImage = () => {
+    setShowCaption(false);
     setCurrentImage((prevIndex) => (prevIndex + 1) % images.length);
   };
 
   const previousImage = () => {
+    setShowCaption(false);
     setCurrentImage((prevIndex) =>
       prevIndex === 0 ? images.length - 1 : prevIndex - 1
     );
@@ -17,6 +20,7 @@ export default function Gallery({ images }) {
 
   const handleTouchStart = (e) => {
     touchStartX.current = e.touches[0].clientX;
+    setShowCaption(false);
   };
 
   const handleTouchEnd = (e) => {
@@ -49,6 +53,11 @@ export default function Gallery({ images }) {
         <button className="gallery-button gallery-button_go" onClick={nextImage}>
         </button>
       </div>
+      {showCaption && (
+        <figcaption className="gallery-caption">
+          Swipe to navigate the gallery on mobile.
+        </figcaption>
+      )}
     </div>
   );
 }
