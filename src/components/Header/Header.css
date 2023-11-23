@@ -21,6 +21,7 @@
 }
 
 .header__lang-button {
+    cursor: pointer;
     border: none;
     font-family: Chillax;
     font-size: 20px;
@@ -51,15 +52,8 @@
     margin-bottom: 20px;
 }
 
-.header__link {
-    font-family: Lato;
-    text-decoration: none;
-    color: inherit;
-    margin-top: 0;
-    font-size: 20px;
-    font-weight: 400;
-    cursor: url('../../images/rosepointer.png');
-    position: relative;
+.header__contacts a:hover {
+    color: #746f6f;
 }
 
 .icon-lang {
@@ -86,23 +80,16 @@
     padding-left: 30px;
 }
 
-.header__link::before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 1.5px;
-    background-color: #746f6f;
-    bottom: -5px;
-    left: 0;
-    transform: scaleX(0);
-    transform-origin: right;
-    transition: width 0.4s ease;
-}
-
-.header__link:hover::before {
-    width: 100%; 
-    transform: scaleX(1);
-    transform-origin: left;
+.header__link {
+    font-family: Lato;
+    text-decoration: none;
+    color: inherit;
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
 }
 
 .header__link:hover {

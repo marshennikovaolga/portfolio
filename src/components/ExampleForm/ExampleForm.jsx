@@ -1,11 +1,30 @@
 import './ExampleForm.css'
+import styled from '@emotion/styled';
+
+const StyledTitle = styled.h2`
+  color: #000;
+  font-weight: 500;
+  width: 400px;
+  font-size: 27px;
+  line-height: 35px;
+  font-family: 'New-York', sans-serif;
+  text-decoration: none;
+  margin-top: 0;
+
+  a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+`;
+
+export { StyledTitle };
 
 export default function ExampleForm({ title, description, list, href }) {
 
     return (
         <>
             <div className="example">
-                <h2 className="example__title link-icon">{title}</h2>
+                <StyledTitle className="example__title link-icon">{title}</StyledTitle>
                 <div className='example__container'>
                     <p className='example__list'>{list}</p>
                 </div>

@@ -32,11 +32,15 @@ export const Languages = {
       list: 'React, REST API, OOP, BEM Nested',
     },
     backmesto: {
-      title: 'Backend project for Mesto Yandex Praktikum',
-      subtitle: 'backend for the Mesto project',
+      title: 'Backend for Mesto project',
+      subtitle: 'backend for the Mesto project (yandex praktikum)',
     },
     diploma: {
       title: 'Diploma project',
+      subtitle: 'work in progress',
+    },
+    chat: {
+      title: 'A simple messenger app',
       subtitle: 'work in progress',
     },
   },
@@ -73,11 +77,15 @@ export const Languages = {
       list: 'React, REST API, OOP, BEM Nested',
     },
     backmesto: {
-      title: 'Backend project for Mesto',
-      subtitle: 'backend для проекта Mesto',
+      title: 'Backend для проекта Mesto',
+      subtitle: ' реализация backend',
     },
     diploma: {
       title: 'Дипломный проект',
+      subtitle: 'в разработке',
+    },
+    chat: {
+      title: 'Мессенджер',
       subtitle: 'в разработке',
     },
   },

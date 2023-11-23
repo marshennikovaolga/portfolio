@@ -14,6 +14,8 @@ export default function OtherTools() {
     "Postman",
     "MongoDB",
     "Mongoose",
+    "Emotion",
+    "Helmet",
     "Adaptive Layout",
     "BEM Nested",
   ];

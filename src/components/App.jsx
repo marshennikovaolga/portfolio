@@ -6,6 +6,7 @@ import OtherTools from "./OtherTools/OtherTools.jsx";
 import ReactAuth from "./ReactAuth/ReactAuth.jsx";
 import BackMesto from "./BackMesto/BackMesto.jsx";
 import Diploma from "./Diploma/Diploma.jsx";
+import ChatProject from './ChatProject/ChatProject.jsx';
 import Footer from "./Footer/Footer.jsx";
 import React from 'react';
 import { LanguageProvider } from "../contexts/LanguageContext.js";
@@ -20,6 +21,7 @@ export default function App() {
           <OtherTools />
           <LangStack />
           <Courses />
+          <ChatProject />
           <ReactAuth />
           <BackMesto />
           <Diploma />
