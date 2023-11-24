@@ -30,6 +30,7 @@ export const Languages = {
       subtitle:
         '\u00A0The project is built on the principles of OOP and REST API, incorporating validation and responsive design. The website operates as a gallery of photos with brief descriptions. Users can like and unlike posts, create cards, and edit information in their profile, including avatar, name, and description. The project includes routing, meaning that an unregistered user doesn\'t have access to the gallery. Therefore, they are prompted to register and authenticate first.',
       list: 'React, REST API, OOP, BEM Nested',
+      figcaption: 'Swipe to navigate the gallery on mobile',
     },
     backmesto: {
       title: 'Backend for Mesto project',
@@ -43,6 +44,9 @@ export const Languages = {
       title: 'A simple messenger app',
       subtitle: 'work in progress',
     },
+    gallery: {
+      figcaption: 'Swipe to navigate the gallery on mobile',
+    }
   },
   ru: {
     header: {
@@ -75,6 +79,7 @@ export const Languages = {
       subtitle:
         '\u00A0Проект основан на принципах ООП и REST API, с использованием валидации и адаптивной вёрстки. Сайт функционирует в формате галереи фотографий с краткими описаниями. Пользователи могут ставить и убирать лайки к постам, создавать карточки и редактировать информацию в своем профиле, включая аватар, имя и описание. В проекте применена маршрутизация – незарегистрированный пользователь не имеет доступа к галерее, поэтому сначала ему предлагают пройти регистрацию и авторизацию.',
       list: 'React, REST API, OOP, BEM Nested',
+      figcaption: 'Проведите по экрану для навигации по галерее на мобильном устройстве',
     },
     backmesto: {
       title: 'Backend для проекта Mesto',
@@ -88,5 +93,8 @@ export const Languages = {
       title: 'Мессенджер',
       subtitle: 'в разработке',
     },
+    gallery: {
+      figcaption: 'Проведите по экрану для навигации по галерее на мобильном устройстве',
+    }
   },
 };

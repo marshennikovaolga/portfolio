@@ -1,10 +1,15 @@
 import React, { useState, useRef } from 'react';
+import { useLanguage } from '../../contexts/LanguageContext.js';
+import { Languages } from '../Languages.js';
 import './Gallery.css';
 
 export default function Gallery({ images }) {
+  const { currentLanguage } = useLanguage();
   const [currentImage, setCurrentImage] = useState(0);
-  const touchStartX = useRef(null);
+  const touchStart = useRef(null);
   const [showCaption, setShowCaption] = useState(true);
+
+  const figcaption = Languages[currentLanguage].gallery.figcaption;
 
   const nextImage = () => {
     setShowCaption(false);
@@ -19,17 +24,17 @@ export default function Gallery({ images }) {
   };
 
   const handleTouchStart = (e) => {
-    touchStartX.current = e.touches[0].clientX;
+    touchStart.current = e.touches[0].clientX;
     setShowCaption(false);
   };
 
   const handleTouchEnd = (e) => {
-    if (touchStartX.current === null) {
+    if (touchStart.current === null) {
       return;
     }
 
-    const touchEndX = e.changedTouches[0].clientX;
-    const deltaX = touchEndX - touchStartX.current;
+    const touchEnd = e.changedTouches[0].clientX;
+    const deltaX = touchEnd - touchStart.current;
 
     if (deltaX > 0) {
       previousImage();
@@ -37,7 +42,7 @@ export default function Gallery({ images }) {
       nextImage();
     }
 
-    touchStartX.current = null;
+    touchStart.current = null;
   };
 
   return (
@@ -55,7 +60,7 @@ export default function Gallery({ images }) {
       </div>
       {showCaption && (
         <figcaption className="gallery-caption">
-          Swipe to navigate the gallery on mobile.
+          {figcaption}
         </figcaption>
       )}
     </div>

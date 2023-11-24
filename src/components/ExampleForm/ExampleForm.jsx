@@ -10,6 +10,7 @@ const StyledTitle = styled.h2`
   font-family: 'New-York', sans-serif;
   text-decoration: none;
   margin-top: 0;
+  margin-bottom: 10px;
 
   a {
     color: inherit;
@@ -26,7 +27,7 @@ export default function ExampleForm({ title, description, list, href }) {
             <div className="example">
                 <StyledTitle className="example__title link-icon">{title}</StyledTitle>
                 <div className='example__container'>
-                    <p className='example__list'>{list}</p>
+                    <p className='example__list icon-tech'>{list}</p>
                 </div>
                 <p className="example__description">{description}</p>
                 <p><a className="example__git-link icon-github" href={href}>github repository</a></p>

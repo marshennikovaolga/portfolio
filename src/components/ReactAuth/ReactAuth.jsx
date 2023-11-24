@@ -1,4 +1,3 @@
-// ReactAuth.jsx
 import React from 'react';
 import { useLanguage } from '../../contexts/LanguageContext.js';
 import { Languages } from '../Languages.js';
@@ -19,11 +18,12 @@ const ReactAuth = () => {
   const list = Languages[currentLanguage].reactAuth.list;
   const images = [gif, success, cards, auth, editprofile ];
   const href = "https://github.com/marshennikovaolga/react-mesto-auth";
+  const figcaption = Languages[currentLanguage].gallery.figcaption;
 
   return (
     <>
       <ExampleForm title={<StyledTitle link={titleLink}><a href={titleLink}>{titleText}</a></StyledTitle>} description={subtitle} list={list} href={href} />
-      <Gallery images={images} />
+      <Gallery images={images} figcaption={figcaption} />
     </>
   );
 };
