@@ -33,8 +33,8 @@ export const Languages = {
       figcaption: 'Swipe to navigate the gallery on mobile',
     },
     backmesto: {
-      title: 'Backend for Mesto project',
-      subtitle: 'backend for the Mesto project (yandex praktikum)',
+      title: 'Backend for the Gallery',
+      subtitle: 'Incorporating backend authentication and validation logic.',
     },
     diploma: {
       title: 'Diploma project',
@@ -82,8 +82,8 @@ export const Languages = {
       figcaption: 'Проведите по экрану для навигации по галерее на мобильном устройстве',
     },
     backmesto: {
-      title: 'Backend для проекта Mesto',
-      subtitle: ' реализация backend',
+      title: 'Backend для Галереи',
+      subtitle: 'Реализация со стороны backend аутентификации и валидации.',
     },
     diploma: {
       title: 'Дипломный проект',
