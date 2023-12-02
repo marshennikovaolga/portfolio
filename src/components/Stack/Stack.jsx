@@ -1,7 +1,6 @@
 import React from 'react';
 import Form from '../Form/Form.jsx';
 import arrowRight from '../../images/arrowright.png';
-import arrowDown from '../../images/arrowdown.png';
 import { useLanguage } from '../../contexts/LanguageContext.js';
 import { Languages } from '../Languages.js';
 
@@ -21,6 +20,6 @@ export default function Stack() {
   ];
 
   return (
-    <Form formName="stack" title={stackTitle} tools={stackTools} arrowRight={arrowRight} arrowDown={arrowDown} />
+    <Form formName="stack" title={stackTitle} tools={stackTools} arrowRight={arrowRight} />
   );
 }

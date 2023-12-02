@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Form.css';
 
-export default function Form({ title, tools, arrowRight, arrowDown }) {
+export default function Form({ title, tools, arrowRight }) {
 
   const [showList, setShowList] = useState(false);
 
@@ -16,9 +16,10 @@ export default function Form({ title, tools, arrowRight, arrowDown }) {
         className={`form__button ${showList ? 'visible' : ''}`}
         onClick={toggleList}
       >
-        <img
-          src={showList ? arrowDown : arrowRight}
+<img
+          src={arrowRight}
           alt="Arrow"
+          style={{ transform: showList ? 'rotate(90deg)' : 'rotate(0deg)' }}
         />
       </button>
       <div className={`form__list ${showList ? 'visible' : ''}`}>

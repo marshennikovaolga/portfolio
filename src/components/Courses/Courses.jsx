@@ -1,7 +1,6 @@
 import React from 'react';
 import Form from '../Form/Form.jsx';
 import arrowRight from '../../images/arrowright.png';
-import arrowDown from '../../images/arrowdown.png';
 import { useLanguage } from '../../contexts/LanguageContext.js';
 import { Languages } from '../Languages.js';
 
@@ -15,5 +14,5 @@ export default function Courses() {
   ];
 
 
-  return <Form formName="courses" title={coursesTitle} tools={coursesTools} arrowRight={arrowRight} arrowDown={arrowDown} />;
+  return <Form formName="courses" title={coursesTitle} tools={coursesTools} arrowRight={arrowRight} />;
 }

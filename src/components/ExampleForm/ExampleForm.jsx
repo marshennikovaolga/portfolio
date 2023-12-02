@@ -7,7 +7,7 @@ const StyledTitle = styled.h2`
   width: 400px;
   font-size: 27px;
   line-height: 35px;
-  font-family: 'New-York', sans-serif;
+  font-family: 'New-York';
   text-decoration: none;
   margin-top: 0;
   margin-bottom: 10px;

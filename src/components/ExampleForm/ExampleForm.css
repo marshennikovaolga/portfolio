@@ -4,14 +4,6 @@
     display: flex;
     flex-direction: column;
     margin-left: 20px;
-    font-family: Lato;
-}
-
-.example__title {
-    font-weight: 500;
-    width: 400px;
-    font-size: 27px;
-    line-height: 35px;
     font-family: New-York;
 }
 
@@ -29,6 +21,7 @@
 .example__list {
     margin: 0;
     font-size: 18px;
+    font-family: Chillax;
 }
 
 .icon-tech {
@@ -99,6 +92,6 @@
     }
 
     .example__title {
-        width: 95%;
+        width: 60%;
     }
 }

@@ -26,7 +26,7 @@ export const Languages = {
       title: 'Other tools:',
     },
     reactAuth: {
-      title: 'Educational project Mesto with user authentication and registration',
+      title: 'Gallery with authentication',
       subtitle:
         '\u00A0The project is built on the principles of OOP and REST API, incorporating validation and responsive design. The website operates as a gallery of photos with brief descriptions. Users can like and unlike posts, create cards, and edit information in their profile, including avatar, name, and description. The project includes routing, meaning that an unregistered user doesn\'t have access to the gallery. Therefore, they are prompted to register and authenticate first.',
       list: 'React, REST API, OOP, BEM Nested',
@@ -75,7 +75,7 @@ export const Languages = {
       title: 'Другие навыки:',
     },
     reactAuth: {
-      title: 'Учебный проект Mesto с аутентификацией и регистрацией',
+      title: 'Галерея Mesto с аутентификацией',
       subtitle:
         '\u00A0Проект основан на принципах ООП и REST API, с использованием валидации и адаптивной вёрстки. Сайт функционирует в формате галереи фотографий с краткими описаниями. Пользователи могут ставить и убирать лайки к постам, создавать карточки и редактировать информацию в своем профиле, включая аватар, имя и описание. В проекте применена маршрутизация – незарегистрированный пользователь не имеет доступа к галерее, поэтому сначала ему предлагают пройти регистрацию и авторизацию.',
       list: 'React, REST API, OOP, BEM Nested',

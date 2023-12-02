@@ -1,5 +1,5 @@
 .form {
-    width: 55%;
+    width: 60%;
     position: relative;
     margin-top: 40px;
     margin-left: 20px;
@@ -18,6 +18,7 @@
     display: block;
     visibility: visible;
     max-height: 300px;
+    max-width: 35em;
     transition: max-height 0.3s, opacity 0.3s;
     display: flex;
     flex-wrap: wrap;
@@ -54,9 +55,11 @@
   .form__button img {
     width: 100%;
     height: 100%;
+    transition: transform 0.4s ease;
   }
   
   .form__title {
+    font-family: New-York;
     font-weight: 500;
     font-size: 23px;
     margin-top: 0;
@@ -116,11 +119,16 @@
     filter: blur(7px);
   }
 
-  /* mobile */
-
   @media screen and (max-width: 600px) {
     .form {
         width: 100%;
         margin-left: 10px;
     }
+
+  .form__list.visible {
+    gap: 5px;
+    line-height: 5px;
+    max-height: 250px;
+    max-width: 350px;
+  }
 }
