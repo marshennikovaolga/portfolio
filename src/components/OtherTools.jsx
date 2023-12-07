@@ -1,8 +1,8 @@
 import React from 'react';
-import Form from '../Form/Form.jsx';
-import arrowRight from '../../images/arrowright.png';
-import { useLanguage } from '../../contexts/LanguageContext.js';
-import { Languages } from '../Languages.js';
+import Form from './Form/Form.jsx';
+import arrowRight from '../images/arrowright.png';
+import { useLanguage } from '../contexts/LanguageContext.js';
+import { Languages } from './Languages.js';
 
 export default function OtherTools() {
   const { currentLanguage } = useLanguage();
@@ -20,6 +20,9 @@ export default function OtherTools() {
   ];
 
   return (
-    <Form formName="others" title={othersTitle} tools={othersTools} arrowRight={arrowRight} />
+    <Form formName="others"
+    title={othersTitle}
+    tools={othersTools}
+    arrowRight={arrowRight} />
   );
 }

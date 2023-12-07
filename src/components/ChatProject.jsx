@@ -1,7 +1,7 @@
 import React from 'react';
-import { useLanguage } from '../../contexts/LanguageContext.js';
-import { Languages } from '../Languages.js';
-import ExampleForm, { StyledTitle } from "../ExampleForm/ExampleForm.jsx";
+import { useLanguage } from '../contexts/LanguageContext.js';
+import { Languages } from './Languages.js';
+import ExampleForm, { StyledTitle } from "./ExampleForm/ExampleForm.jsx";
 
 
 const ChatProject = () => {
@@ -14,7 +14,13 @@ const ChatProject = () => {
 
   return (
     <>
-      <ExampleForm title={<StyledTitle link={titleLink}><a href={titleLink}>{titleText}</a></StyledTitle>}  description={subtitle} list={list} href={href} />
+      <ExampleForm title={
+        <StyledTitle link={titleLink}>
+          <a href={titleLink}>{titleText}</a>
+        </StyledTitle>}
+        description={subtitle}
+        list={list}
+        href={href} />
     </>
   );
 };

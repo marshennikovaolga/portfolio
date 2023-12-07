@@ -46,6 +46,9 @@ export const Languages = {
     },
     gallery: {
       figcaption: 'Swipe to navigate the gallery on mobile',
+    },
+    footer: {
+      personality: 'Get to know me better:',
     }
   },
   ru: {
@@ -95,6 +98,9 @@ export const Languages = {
     },
     gallery: {
       figcaption: 'Проведите по экрану для навигации по галерее на мобильном устройстве',
+    },
+    footer: {
+      personality: 'Мои социальные сети:',
     }
   },
 };

@@ -1,13 +1,13 @@
 import React from 'react';
-import { useLanguage } from '../../contexts/LanguageContext.js';
-import { Languages } from '../Languages.js';
-import ExampleForm, { StyledTitle } from "../ExampleForm/ExampleForm.jsx";
-import Gallery from '../Gallery/Gallery.jsx';
-import cards from '../../images/cards.png';
-import auth from '../../images/auth.png';
-import editprofile from '../../images/edit-profile.png';
-import success from '../../images/success.png';
-import gif from '../../images/react-video.gif';
+import { useLanguage } from '../contexts/LanguageContext.js';
+import { Languages } from './Languages.js';
+import ExampleForm, { StyledTitle } from "./ExampleForm/ExampleForm.jsx";
+import Gallery from './Gallery/Gallery.jsx';
+import cards from '../images/cards.png';
+import auth from '../images/auth.png';
+import editprofile from '../images/edit-profile.png';
+import success from '../images/success.png';
+import gif from '../images/react-video.gif';
 
 
 const ReactAuth = () => {

@@ -1,8 +1,9 @@
 .footer {
     width: 100%;
     margin-left: 20px;
-    margin-top: 25px;
+    margin-top: 1em;
     margin-bottom: 25px;
+    font-family: New-York;
 }
 
 .footer__year {
@@ -10,8 +11,55 @@
     padding: 0;
 }
 
+.footer__social a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer__social a:hover {
+    color:rgb(119, 132, 116);
+}
+
+.icon-instagram {
+    background: url('../../images/inst.png') no-repeat;
+    background-size: contain;
+    padding-left: 30px;
+}
+
+.icon-x {
+    background: url('../../images/x.png') no-repeat;
+    background-size: contain;
+    padding-left: 30px;
+}
+
+.icon-spotify {
+    background: url('../../images/spotify.png') no-repeat;
+    background-size: contain;
+    padding-left: 30px;
+}
+
+.footer__social {
+    margin: 0.5em;
+    font-family: Chillax;
+}
+
+.footer__socials {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding-bottom: 3em;
+}
+
 @media screen and (max-width: 600px) {
     .footer {
         margin-left: 20px;
+        margin-top: 3em;
+    }
+
+    .footer__socials {
+        flex-direction: column;
+        padding-bottom: 2em;
     }
 }
