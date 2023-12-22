@@ -13,11 +13,11 @@ import gif from '../images/react-video.gif';
 const ReactAuth = () => {
   const { currentLanguage } = useLanguage();
   const titleText = Languages[currentLanguage].reactAuth.title;
-  const titleLink = "https://react-mesto-auth-woad.vercel.app/sign-in";
+  const titleLink = " https://marshennikova.nomoredomainsmonster.ru";
   const subtitle = Languages[currentLanguage].reactAuth.subtitle;
   const list = Languages[currentLanguage].reactAuth.list;
   const images = [gif, success, cards, auth, editprofile ];
-  const href = "https://github.com/marshennikovaolga/react-mesto-auth";
+  const href = "https://github.com/marshennikovaolga/react-mesto-api-full-gha";
   const figcaption = Languages[currentLanguage].gallery.figcaption;
 
   return (
