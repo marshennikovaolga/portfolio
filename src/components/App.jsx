@@ -4,7 +4,6 @@ import LangStack from "./LangStack.jsx";
 import Courses from "./Courses.jsx";
 import OtherTools from "./OtherTools.jsx";
 import ReactAuth from "./ReactAuth.jsx";
-import BackMesto from "./BackMesto.jsx";
 import Diploma from "./Diploma.jsx";
 import ChatProject from './ChatProject.jsx';
 import Footer from "./Footer/Footer.jsx";
@@ -23,7 +22,6 @@ export default function App() {
           <Courses />
           <ChatProject />
           <ReactAuth />
-          <BackMesto />
           <Diploma />
           <Footer />
         </>

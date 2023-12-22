@@ -10,12 +10,11 @@ export default function OtherTools() {
 
   const othersTools = [
     "Webpack",
-    "Postman",
     "MongoDB",
     "Mongoose",
+    "HTTPPie",
+    "Postman",
     "Emotion",
-    "Celebrate",
-    "Helmet",
     "BEM Nested",
   ];
 

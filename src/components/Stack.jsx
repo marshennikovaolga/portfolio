@@ -11,11 +11,13 @@ export default function Stack() {
     "Git",
     "JavaScript",
     "React",
-    "TypeScript",
-    "OOP",
-    "REST API",
+    "Tailwind",
+    "Nginx",
     "Node.js",
     "Express.js",
+    "NPM",
+    "OOP",
+    "REST API",
     "HTML5, CSS3",
   ];
 

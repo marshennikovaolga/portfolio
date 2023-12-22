@@ -28,17 +28,13 @@ export const Languages = {
     reactAuth: {
       title: 'Gallery with authentication',
       subtitle:
-        '\u00A0The project is built on the principles of OOP and REST API, incorporating validation and responsive design. The website operates as a gallery of photos with brief descriptions. Users can like and unlike posts, create cards, and edit information in their profile, including avatar, name, and description. The project includes routing, meaning that an unregistered user doesn\'t have access to the gallery. Therefore, they are prompted to register and authenticate first.',
-      list: 'React, REST API, OOP, BEM Nested',
+        '\u00A0The project is built on the principles of OOP and REST API, incorporating validation and responsive design. The website operates as a gallery of photos with brief descriptions. Users can like and unlike posts, create cards, and edit information in their profile, including avatar, name, and description. The project includes routing, meaning that an unregistered user doesn\'t have access to the gallery. Therefore, they are prompted to register and authenticate first. The server-side of the website is implemented using Node.js, Express, and Nginx',
+      list: 'Frontend + Backend + Nginx',
       figcaption: 'Swipe to navigate the gallery on mobile',
-    },
-    backmesto: {
-      title: 'Backend for the Gallery',
-      subtitle: 'Incorporating backend authentication and validation logic.',
     },
     diploma: {
       title: 'Diploma project',
-      subtitle: 'work in progress',
+      subtitle: 'work in progress. A website for movie search with both frontend and backend',
     },
     chat: {
       title: 'A simple messenger app',
@@ -80,17 +76,13 @@ export const Languages = {
     reactAuth: {
       title: 'Галерея Mesto с аутентификацией',
       subtitle:
-        '\u00A0Проект основан на принципах ООП и REST API, с использованием валидации и адаптивной вёрстки. Сайт функционирует в формате галереи фотографий с краткими описаниями. Пользователи могут ставить и убирать лайки к постам, создавать карточки и редактировать информацию в своем профиле, включая аватар, имя и описание. В проекте применена маршрутизация – незарегистрированный пользователь не имеет доступа к галерее, поэтому сначала ему предлагают пройти регистрацию и авторизацию.',
+        '\u00A0Проект основан на принципах ООП и REST API, с использованием валидации и адаптивной вёрстки. Сайт функционирует в формате галереи фотографий с краткими описаниями. Пользователи могут ставить и убирать лайки к постам, создавать карточки и редактировать информацию в своем профиле, включая аватар, имя и описание. В проекте применена маршрутизация – незарегистрированный пользователь не имеет доступа к галерее, поэтому сначала ему предлагают пройти регистрацию и авторизацию. Серверная часть сайта реализована с помощью Node.js, Express и Nginx с использованием VM',
       list: 'React, REST API, OOP, BEM Nested',
       figcaption: 'Проведите по экрану для навигации по галерее на мобильном устройстве',
     },
-    backmesto: {
-      title: 'Backend для Галереи',
-      subtitle: 'Реализация со стороны backend аутентификации и валидации.',
-    },
     diploma: {
       title: 'Дипломный проект',
-      subtitle: 'в разработке',
+      subtitle: 'в разработке. Сайт с поиском фильмов',
     },
     chat: {
       title: 'Мессенджер',
