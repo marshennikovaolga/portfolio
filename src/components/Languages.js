@@ -40,6 +40,11 @@ export const Languages = {
       title: 'A simple messenger app',
       subtitle: 'work in progress',
     },
+    todo: {
+      title: 'Todo website',
+      subtitle: 'work in progress',
+      list: 'react, tailwind, GraphQL',
+    },
     gallery: {
       figcaption: 'Swipe to navigate the gallery on mobile',
     },
@@ -87,6 +92,11 @@ export const Languages = {
     chat: {
       title: 'Мессенджер',
       subtitle: 'в разработке',
+    },
+    todo: {
+      title: 'TODO сайт, ежедневник',
+      subtitle: 'в разработке. Сайт, с помощью которого пользователь может вести список дел. Задачи можно добавить в избранное, закрепив их в начале списка, удалить и отметить как выполненные.',
+      list: 'react, tailwind, GraphQL',
     },
     gallery: {
       figcaption: 'Проведите по экрану для навигации по галерее на мобильном устройстве',

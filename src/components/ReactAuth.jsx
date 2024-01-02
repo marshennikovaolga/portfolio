@@ -16,7 +16,7 @@ const ReactAuth = () => {
   const titleLink = " https://marshennikova.nomoredomainsmonster.ru";
   const subtitle = Languages[currentLanguage].reactAuth.subtitle;
   const list = Languages[currentLanguage].reactAuth.list;
-  const images = [gif, success, cards, auth, editprofile ];
+  const images = [ gif, success, cards, auth, editprofile ];
   const href = "https://github.com/marshennikovaolga/react-mesto-api-full-gha";
   const figcaption = Languages[currentLanguage].gallery.figcaption;
 
