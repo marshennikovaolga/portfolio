@@ -3,9 +3,7 @@ import { useLanguage } from '../contexts/LanguageContext.js';
 import { Languages } from './Languages.js';
 import ExampleForm, { StyledTitle } from "./ExampleForm/ExampleForm.jsx";
 import Gallery from './Gallery/Gallery.jsx';
-import todo from '../images/todo1.jpg';
-import active from '../images/todo-active.jpg';
-
+import todovideo from '../images/todovideo.gif';
 
 const TodoList = () => {
     const { currentLanguage } = useLanguage();
@@ -13,7 +11,7 @@ const TodoList = () => {
     const titleLink = 'https://github.com/marshennikovaolga/todo-list';
     const subtitle = Languages[currentLanguage].todo.subtitle;
     const list = Languages[currentLanguage].todo.list;
-    const images = [ todo, active ];
+    const images = [ todovideo ];
     const href = 'https://github.com/marshennikovaolga/todo-list';
     const figcaption = Languages[currentLanguage].gallery.figcaption;
 
